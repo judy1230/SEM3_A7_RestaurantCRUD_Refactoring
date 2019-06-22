@@ -38,7 +38,7 @@ this project will run in node.js enviroment, install it by below command in your
 |                    |     相關資料: index.handlebars   function: 加入刪除提醒                                  |
 | 使用者可以搜尋餐廳      |  餐廳欄位與detail頁面按下delete, redirect到 'http:///localhost:3000/search?keyword=中東'搜尋資料 |
 |                    |     相關資料: index.handlebars,  routers/restaurants.js                                  |  
-| 使用者可以排列餐廳      |  餐廳欄位與detail頁面按下delete, redirect到 http://localhost:3000/restaurants/filter?time 排列資料, 可依a-z, 時間, rating |
+| 使用者可以排列餐廳      |  餐廳欄位與detail頁面按下delete, redirect到 http://localhost:3000/restaurants/sort?time 排列資料, 可依a-z, time, rating |
 |                    |     相關資料: index.handlebars,  routers/restaurants.js                                  |  
 
 use git log --date=local --pretty=format:"%h%x09%an%x09%ad%x09%s" > ../commits.local.tsv.txt to download commit log
