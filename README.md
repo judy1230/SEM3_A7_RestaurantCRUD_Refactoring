@@ -28,15 +28,15 @@ this project will run in node.js enviroment, install it by below command in your
 # Features
 |       Option       |                                           Description                               |
 | ------------------ |------------------------------------------------------------------------------------ |
-| 使用者可以新增餐廳   |  首頁按下加入新餐廳按鈕, redirect到 'http:///localhost:3000/restaurants/new'新增資料                  |
+| 使用者可以新增餐廳   |  首頁按下加入新餐廳按鈕, redirect到 'http://localhost:3000/restaurants/new'新增資料                  |
 |                    |    相關資料: new.handlebars                                                         |
-| 使用者可以瀏覽餐廳   |  餐廳欄位按下detail, redirect到 'http:///localhost:3000/restaurants/:id'瀏覽該筆資料                 |
+| 使用者可以瀏覽餐廳   |  餐廳欄位按下detail, redirect到 'http://localhost:3000/restaurants/:id'瀏覽該筆資料                 |
 |                    |    相關資料: new.handlebars                                                          |
-| 使用者可以修改餐廳   |  餐廳欄位與detail頁面按下edit, redirect到 'http:///localhost:3000/restaurants/:id/edit'修改該筆資料    |
+| 使用者可以修改餐廳   |  餐廳欄位與detail頁面按下edit, redirect到 'http://localhost:3000/restaurants/:id/edit'修改該筆資料    |
 |                     |    相關資料: index.handlebars, show.handlebars                                        |
-| 使用者可以刪除餐廳   |  餐廳欄位與detail頁面按下delete, redirect到 'http:///localhost:3000/restaurants/:id/delete'刪除該筆資料 |
+| 使用者可以刪除餐廳   |  餐廳欄位與detail頁面按下delete, redirect到 'http://localhost:3000/restaurants/:id/delete'刪除該筆資料 |
 |                    |     相關資料: index.handlebars   function: 加入刪除提醒                                  |
-| 使用者可以搜尋餐廳      |  餐廳欄位與detail頁面按下delete, redirect到 'http:///localhost:3000/search?keyword=中東'搜尋資料 |
+| 使用者可以搜尋餐廳      |  餐廳欄位與detail頁面按下delete, redirect到 'http://localhost:3000/search?keyword=中東'搜尋資料 |
 |                    |     相關資料: index.handlebars,  routers/restaurants.js                                  |  
 | 使用者可以排列餐廳      |  餐廳欄位與detail頁面按下delete, redirect到 http://localhost:3000/restaurants/sort?time 排列資料, 可依a-z, time, rating |
 |                    |     相關資料: index.handlebars,  routers/restaurants.js                                  |  
