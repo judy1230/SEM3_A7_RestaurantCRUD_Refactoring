@@ -3,7 +3,7 @@ const router = express.Router()
 const Restaurant = require('../models/restaurant.js')
 
 //sort restaurants
-router.get('/filter', (req, res) => {
+router.get('/sort', (req, res) => {
 	console.log('req._parsedOriginalUrl.query', req._parsedOriginalUrl.query)
 	switch (req._parsedOriginalUrl.query) {
 		case 'atoz':
