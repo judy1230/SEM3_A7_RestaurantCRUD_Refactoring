@@ -3,7 +3,7 @@
 
 # Getting Start
 <pre><code>
-[~/] $ git clone https://github.com/judy1230/SEM3_A6_RestaurantCRUD.git
+[~/] $ git clone https://github.com/judy1230/SEM3_A7_RestaurantCRUD_Refactoring.git
 [~/] $ npm i express
 [~/] $ npm run dev
 </pre></code>
