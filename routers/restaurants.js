@@ -83,7 +83,7 @@ router.put('/:id', (req, res) => {
 			restaurant.google_map = req.body.google_map,
 			restaurant.rating = req.body.rating,
 			restaurant.description = req.body.description,
-		  restaurant.timestamp = Date.now
+		  restaurant.timestamp = Date.now()
 
 		restaurant.save((err) => {
 			console.log('restaurant.timestamp', restaurant.timestamp)
